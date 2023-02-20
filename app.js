@@ -12,7 +12,7 @@ app.use(express.static("public"));
 
 
 mongoose.set('strictQuery', false);
-mongoose.connect("mongodb+srv://agiagilesh143:Savidham386@cluster0.4qtkdb2.mongodb.net/?retryWrites=true&w=majority" , {useNewUrlParser: true});
+mongoose.connect("url" , {useNewUrlParser: true});
 
 const itemSchema = new mongoose.Schema ({
   name: {
